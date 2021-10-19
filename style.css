@@ -104,12 +104,13 @@ a:hover {
 .list-inline-dev {
   padding: 0;
   margin: 8px 24px;
+  font-weight: lighter;
+  font-size:  10px;
 }
 
 .list-inline-dev li {
   display:  inline-block;
   line-height: 250pt;
-
 }
 
 .list-inline {
