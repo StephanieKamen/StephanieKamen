@@ -4,7 +4,7 @@
 
 🌱  I’m currently learning React & Redux and getting deeper into front-end topics.
 
-🤝  I’m looking to collaborate on creative front-end projects
+🤝  I’m looking to collaborate on creative front-end projects.
 
 📫  How to reach me stephanie.kamen@outlook.com
 
