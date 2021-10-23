@@ -2,30 +2,32 @@
 @import url("https://kit.fontawesome.com/a57c5a5351.js");
 body {
   font-family: 'Open Sans';
-  background-color: #03256c;
+  background-color: #202060;
 }
 
 h1 {
   font-family: 'Poppins';
-  color: #03256c;
+  color: #202060;
   font-weight: lighter;
   font-size: 30px;
+  text-align: center;
 }
 
-h2, h3 {
+h2 {
   font-family: 'Poppins';
-  color: #03256c;
+  color: #202060;
   font-weight: lighter;
   font-size: 22px;
+  text-align: center;
 }
 
 p {
- color: black;
  line-height: 25pt;
- font-size: 16px;
+ color: #393E46;
+ font-size: 20px;
  margin: 8px 24px;
+ text-align: left;
 }
-
 
 a {
 font-weight: bold;
@@ -34,12 +36,13 @@ color: #bbbfca;
 }
 
 a:hover {
-  color: #03256c;
+  color: #202060;
 }
 
 .container {
-  width: 700px;
-  margin: 0 auto;
+  width:  700px;
+  margin: 40 auto;
+  padding: 40px 40px;
 }
 
 @media (max-width: 960px) {
@@ -63,58 +66,63 @@ a:hover {
 
 .card-section {
   background-color: #f4f4f2;
-  padding:  20px;
+  padding: 20px;
   margin: 24px auto;
-  text-align: center;
+ /* text-align: block;*/
+}
+
+.card-section p {
+  color: #393E46;
+  font-size: 20px;
 }
 
 .profile-image {
   width: 200px;
   border-radius: 50%;
-  opacity:  0.5;
+  opacity: 0.5;
 }
 
 .profile-image:hover {
-  opacity:  1.0;
+  opacity: 1.0;
   box-shadow: 7px 7px 7px lightgrey;
-  background-image: src(images/IMG_0195.jpeg);
 }
-
 
 .btn-grey {
   background-color:  #00917c;
-  color:  white;
-  padding:  8px 24px;
-  border-radius:  5px;
-  margin: 8px 24px;
-
+  color: white;
+  padding: 8px 24px;
+  border-radius: 5px;
+  margin: 8px 224px;
+  text-align: center;
 }
 
-.btn-grey:hover{
+.btn-grey:hover {
   background-color: lightgrey;
-  color:  #03256c;
-  padding:  8px 24px;
+  color: #202060;
+  padding: 8px 24px;
   border-radius:  5px;
   margin: 8px 24px;
+  text-align: center;
 }
 
-.list-inline-dev{
-  padding:  0;
+.list-inline-dev {
+  padding: 0;
   margin: 8px 24px;
 }
 
 .list-inline-dev li {
-  display:  inline-block;
-  font-weight:  lighter;
+  display: inline-block;
+  line-height: 250pt;
+
 }
 
-.list-inline{
+.list-inline {
   list-style: none;
   padding:  0;
 }
 
 .list-inline li {
-  display:  inline-block;
+  display: inline-block;
 }
 
 .social-icon {
@@ -123,9 +131,8 @@ a:hover {
   margin: 8px 24px;
 }
 
-.container {
+/*.container {
   width: 700px;
   margin: 40px auto;
 }
-
-
+*/
