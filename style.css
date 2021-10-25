@@ -3,7 +3,7 @@
 body {
    background-color: #202060;
    margin-top: 60px;
-   margin-bottom: 0;
+   margin-bottom: 60px;
 }
 
 .container {
@@ -45,6 +45,7 @@ a {
 }
 
 a:hover {
+  font-weight: bold;
   color: #202060;
 }
 
@@ -92,6 +93,7 @@ a:hover {
 
 .btn-grey {
   background-color: #00917c;
+  font-weight: lighter;
   color: white;
   border-radius: 5px;
   padding: 8px 24px;
@@ -99,6 +101,7 @@ a:hover {
 
 .btn-grey:hover {
   background-color: lightgrey;
+  font-weight: bolder;
   color: #2C394B;
   padding: 8px 24px;
   border-radius: 5px;
@@ -108,14 +111,13 @@ a:hover {
 .list-inline-dev {
   color: #152D35;
   text-align: left;
-  padding: 0;
   margin: 8px 24px;
 }
 
 .list-inline-dev li {
   text-align: left;
   display: inline-block;
-  line-height: 25pt;
+  line-height: 28pt;
 }
 
 .list-inline-dev li:hover {
@@ -129,16 +131,18 @@ a:hover {
 
 .list-inline {
   list-style: none;
+  padding: 0 3px;
 }
 
 .list-inline li {
   display: inline-block;
+  padding: 0 15px;
+  margin: 8px 24px;
 }
 
 .social-icon {
   font-size: 35px;
   color: lightgrey;
-  margin: 24px 24px;
 }
 
 .social-icon:hover {
