@@ -5,26 +5,31 @@ body {
    margin-top: 60px;
    margin-bottom: 60px;
 }
+
 .container {
   font-family: ‘Poppins’;
   width:  700px;
   margin: 0 auto;
 }
+
 h1 {
   color: #202060;
   font-weight: lighter;
   font-size: 28px;
 }
+
 h2 {
   color: #202060;
   font-weight: lighter;
   font-size: 24px;
 }
+
 h3 {
   font-size:  18px;
   color: #2C394B;
   font-weight: lighter;
 }
+
 p {
  line-height: 25pt;
  color: #2C394B;
@@ -32,15 +37,18 @@ p {
  margin: 8px 24px;
  text-align: left;
 }
+
 a {
   font-weight: bold;
   text-decoration: none;
   color: #BBBFCA;
 }
+
 a:hover {
   font-weight: bold;
   color: #202060;
 }
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -59,25 +67,30 @@ a:hover {
     width: 300px;
   }
 }
+
 .card-section {
   background-color: #F4F4F2;
   padding: 20px 50px;
   margin: 24px auto;
   text-align: center;
 }
+
 .card-section p {
   color: #152D35;
   font-size: 16px;
 }
+
 .profile-image {
   width: 200px;
   border-radius: 50%;
   opacity:  0.5;
 }
+
 .profile-image:hover {
   opacity:  1.0;
   box-shadow: 7px 7px 7px lightgrey;
 }
+
 .btn-grey {
   background-color: #00917C;
   font-weight: lighter;
@@ -85,6 +98,7 @@ a:hover {
   border-radius: 5px;
   padding: 8px 24px;
 }
+
 .btn-grey:hover {
   background-color: lightgrey;
   font-weight: bolder;
@@ -93,36 +107,45 @@ a:hover {
   border-radius: 5px;
   margin: 8px 24px;
 }
+
 .list-inline-dev {
   color: #152D35;
   text-align: left;
   margin: 8px 24px;
 }
+
 .list-inline-dev li {
   text-align: left;
   display: inline-block;
   line-height: 28pt;
 }
+
 .list-inline-dev li:hover {
   color: #00917C;
   font-weight: bold;
 }
+
 .list-inline-dev .fas {
   color: #00917C;
 }
+
 .list-inline {
   list-style: none;
   padding: 0 3px;
 }
+
 .list-inline li {
   display: inline-block;
   padding: 0 15px;
   margin: 8px 24px;
 }
+
 .social-icon {
   font-size: 35px;
   color: lightgrey;
 }
+
 .social-icon:hover {
   font-size: 45px;
 }
+
