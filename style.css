@@ -74,7 +74,7 @@ a:hover {
 }
 
 .card-section p {
-  color:#152D35;
+  color: #152D35;
   font-size: 16px;
 }
 
@@ -106,6 +106,7 @@ a:hover {
 }
 
 .list-inline-dev {
+  color: #152D35;
   text-align: left;
   padding: 0;
   margin: 8px 24px;
@@ -118,11 +119,12 @@ a:hover {
 }
 
 .list-inline-dev li:hover {
-  color: lightgrey;
+  color: #00917c;
+  font-weight: bold;
 }
 
-.list-inline-dev fas {
-  color: #202060;
+.list-inline-dev .fas {
+  color: #00917c;
 }
 
 .list-inline {
@@ -138,4 +140,8 @@ a:hover {
   font-size: 35px;
   color: lightgrey;
   margin: 8px 24px;
+}
+
+.social-icon:hover {
+  font-size:  45px;
 }
