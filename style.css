@@ -1,47 +1,46 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
-@import url("https://kit.fontawesome.com/a57c5a5351.js");
+@import url(“http://fonts.googleapis.com/css?family=Open+Sans:400,300,700%7CPoppins:300,400,500,700”);
+@import url(“https://kit.fontawesome.com/a57c5a5351.js”);
 body {
-  font-family:  'Open Sans';
-  background-color: #03256c;
+   background-color: #202060;
+   margin-top: 60px;
+   margin-bottom: 60px;
 }
-
-h1 {
-  font-family:  'Poppins';
-  color: #03256c;
-  font-weight: lighter;
-  font-size: 30px;
-}
-
-h2, h3 {
-  font-family:  'Poppins';
-  color: #03256c;
-  font-weight: lighter;
-  font-size: 22px;
-}
-
-p {
- line-height: 25pt;
- color: #03256c;
- font-size:  20px;
- margin: 8px 24px;
-}
-
-
-a {
-font-weight: bold;
-text-decoration: none;
-color: #bbbfca;
-}
-
-a:hover {
-  color: #03256c;
-}
-
 .container {
+  font-family: ‘Poppins’;
   width:  700px;
   margin: 0 auto;
 }
-
+h1 {
+  color: #202060;
+  font-weight: lighter;
+  font-size: 28px;
+}
+h2 {
+  color: #202060;
+  font-weight: lighter;
+  font-size: 24px;
+}
+h3 {
+  font-size:  18px;
+  color: #2C394B;
+  font-weight: lighter;
+}
+p {
+ line-height: 25pt;
+ color: #2C394B;
+ font-size:  18px;
+ margin: 8px 24px;
+ text-align: left;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #BBBFCA;
+}
+a:hover {
+  font-weight: bold;
+  color: #202060;
+}
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -60,77 +59,70 @@ a:hover {
     width: 300px;
   }
 }
-
 .card-section {
-  background-color: #f4f4f2;
-  padding:  20px;
+  background-color: #F4F4F2;
+  padding: 20px 50px;
   margin: 24px auto;
   text-align: center;
 }
-
 .card-section p {
-  color: #03256c;
-  font-size: 20px;
+  color: #152D35;
+  font-size: 16px;
 }
-
 .profile-image {
   width: 200px;
   border-radius: 50%;
   opacity:  0.5;
 }
-
 .profile-image:hover {
   opacity:  1.0;
   box-shadow: 7px 7px 7px lightgrey;
-  background-image: src(images/IMG_0195.jpeg);
 }
-
 .btn-grey {
-  background-color:  #00917c;
-  color:  white;
-  padding:  8px 24px;
-  border-radius:  5px;
-  margin: 8px 224px;
-}
-
-.btn-grey:hover{
-  background-color: lightgrey;
-  color:  #03256c;
-  padding:  8px 24px;
-  border-radius:  5px;
-  margin: 8px 24px;
-}
-
-.list-inline-dev {
-  padding: 0;
-  margin: 8px 24px;
+  background-color: #00917C;
   font-weight: lighter;
-  font-size:  10px;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 24px;
 }
-
+.btn-grey:hover {
+  background-color: lightgrey;
+  font-weight: bolder;
+  color: #2C394B;
+  padding: 8px 24px;
+  border-radius: 5px;
+  margin: 8px 24px;
+}
+.list-inline-dev {
+  color: #152D35;
+  text-align: left;
+  margin: 8px 24px;
+}
 .list-inline-dev li {
-  display:  inline-block;
-  line-height: 250pt;
+  text-align: left;
+  display: inline-block;
+  line-height: 28pt;
 }
-
+.list-inline-dev li:hover {
+  color: #00917C;
+  font-weight: bold;
+}
+.list-inline-dev .fas {
+  color: #00917C;
+}
 .list-inline {
   list-style: none;
-  padding:  0;
+  padding: 0 3px;
 }
-
 .list-inline li {
-  display:  inline-block;
+  display: inline-block;
+  padding: 0 15px;
+  margin: 8px 24px;
 }
-
 .social-icon {
   font-size: 35px;
   color: lightgrey;
-  margin: 8px 24px;
 }
-
-.container {
-  width: 700px;
-  margin: 40px auto;
+.social-icon:hover {
+  font-size: 45px;
 }
-
-
