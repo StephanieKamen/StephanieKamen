@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-👩‍💻  I am a Berlin based Junior Web Developer who recently graduated the Full Stack Web Developer course at Le Wagon Berlin.
+👩‍💻  I am a Berlin based Junior Web Developer who recently graduated the Full Stack Web Development course at Le Wagon Berlin.
 
 🌱  I’m currently learning React & Redux and getting deeper into front-end topics in general.
 
