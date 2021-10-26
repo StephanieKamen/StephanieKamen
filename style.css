@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700%7CPoppins:300,400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300,500&display=swap");
 @import url("https://kit.fontawesome.com/a57c5a5351.js");
 body {
    background-color: #202060;
@@ -7,26 +7,26 @@ body {
 }
 
 .container {
-  font-family: ‘Poppins’;
+  font-family: 'Montserrat', sans-serif;
   width:  700px;
   margin: 0 auto;
 }
 
 h1 {
   color: #202060;
-  font-weight: lighter;
   font-size: 28px;
+  font-weight: lighter;
 }
 
 h2 {
   color: #202060;
-  font-weight: lighter;
   font-size: 24px;
+  font-weight: lighter;
 }
 
 h3 {
-  font-size:  18px;
   color: #2C394B;
+  font-size:  18px;
   font-weight: lighter;
 }
 
@@ -115,14 +115,16 @@ a:hover {
 }
 
 .list-inline-dev li {
-  text-align: left;
   display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
   line-height: 28pt;
 }
 
 .list-inline-dev li:hover {
   color: #00917C;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .list-inline-dev .fas {
@@ -136,6 +138,8 @@ a:hover {
 
 .list-inline li {
   display: inline-block;
+  text-decoration: none;
+  list-style: none;
   padding: 0 15px;
   margin: 8px 24px;
 }
